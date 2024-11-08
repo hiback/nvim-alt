@@ -14,6 +14,8 @@ return {
     },
     opts = {
         -- configuration goes here
+        ---@type string
+        arg = "leet"
         ---@type lc.storage
         storage = {
             home = "~/leetcode",
