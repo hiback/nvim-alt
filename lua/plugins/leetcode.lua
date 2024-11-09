@@ -9,13 +9,15 @@ return {
 
         -- optional
         "nvim-treesitter/nvim-treesitter",
-        "rcarriga/nvim-notify",
+        -- "rcarriga/nvim-notify",
         "nvim-tree/nvim-web-devicons",
     },
     opts = {
         -- configuration goes here
+        ---@type lc.lang
+        lang = "cpp",
         ---@type string
-        arg = "leet"
+        arg = "leet",
         ---@type lc.storage
         storage = {
             home = "~/leetcode",
