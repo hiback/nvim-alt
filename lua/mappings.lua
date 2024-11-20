@@ -5,7 +5,7 @@ require "nvchad.mappings"
 local map = vim.keymap.set
 
 -- Insert Mode
-map("i", "jj", "<ESC>")
+-- map("i", "jj", "<ESC>")
 
 -- Visual Mode
 map("v", "J", ":m '>+1<CR>gv=gv")
