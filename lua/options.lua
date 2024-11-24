@@ -4,6 +4,9 @@ require "nvchad.options"
 
 local o = vim.opt
 
+-- clipboard
+vim.api.nvim_set_option("clipboard","unnamed")
+
 -- Search
 o.ignorecase = true
 o.smartcase = true
