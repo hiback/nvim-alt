@@ -8,6 +8,8 @@ local map = vim.keymap.set
 -- map("i", "jj", "<ESC>")
 
 -- Visual Mode
+map("v", "H", "^")
+map("v", "L", "$")
 map("v", "J", ":m '>+1<CR>gv=gv")
 map("v", "K", ":m '<-2<CR>gv=gv")
 
@@ -18,6 +20,7 @@ map("n", "H", "^")
 map("n", "L", "$")
 map("n", "J", "<C-d>")
 map("n", "K", "<C-u>")
+
 -- TmuxNavigate
 map("n", "<c-h>", "<cmd> TmuxNavigateLeft<cr>")
 map("n", "<c-j>", "<cmd> TmuxNavigateDown<cr>")
